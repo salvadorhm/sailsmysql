@@ -1,0 +1,12 @@
+<h1>Users</h1>
+<ol>
+    <a href="users/create">Create</a>
+    <% users.forEach( function( user ){%>
+        <li>
+            <%= user.username %>
+                <a href='users/destroy/<%=user.id %>'>delete</a>
+                <a href='users/edit/<%=user.id %>'>update</a>
+                <a href='users/view/<%=user.id%>'>view</a>
+        </li>
+        <% }); %>
+</ol>

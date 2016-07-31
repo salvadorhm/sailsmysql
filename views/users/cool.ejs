@@ -1,0 +1,5 @@
+<select name="users">
+        <% users.forEach( function( user ){%>
+            <option value='<%= user.username %>'><%= user.username %></option>
+        <% }); %>
+</select>
