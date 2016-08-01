@@ -19,6 +19,7 @@
     "grunt-sails-linker": "~0.10.1",
     "grunt-sync": "0.2.4",
     "include-all": "~0.1.6",
+    "jquery": "^2.1.1",
     "materialize-css": "^0.97.7",
     "node-mysql": "^0.4.2",
     "rc": "1.0.1",

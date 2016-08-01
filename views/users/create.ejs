@@ -1,6 +1,21 @@
-<form action="/users/create" method="post">
-    <input type="text" name="Users[username]" placeholder="User"><br>
-    <input type="password" name="Users[password]" placeholder="password"><br>
-    <input type="submit" name="guardar" value="Guardar">
-</form>
-<a href="/">Index</a>
+<div class="row">
+
+    <form class="col s12" action="/users/create" method="POST">
+        <div class="input-field col s12">
+            <input id="Users[username]" name="Users[username]" type="text" class="validate" required>
+            <label for="username">Name</label>
+        </div>
+
+        <div class="input-field col s12">
+            <input id="Users[password]" name="Users[password]" type="password" class="validate" required>
+            <label for="password">Password</label>
+        </div>
+
+        <diV class="input-field col s6">
+            <button class="btn waves-effect waves-light" type="submit" name="action">Guardar</button>
+            <a href="/" class="waves-effect waves-light btn">Index</a>
+        </diV>
+    </form>
+
+
+</div>
